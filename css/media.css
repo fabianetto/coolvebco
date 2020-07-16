@@ -1,0 +1,926 @@
+@media screen and (max-width: 2800px) {
+
+    
+    #section4 img {
+    width: 100%;
+    }
+    
+    #section8 .ourpr {
+    text-align: center;
+    }
+    
+    #section8 .collage {
+    width: 90.5vh;
+    top: 130px;
+	}
+    
+    #section8 .intro-tech{
+	width: 80%;
+	position: relative;
+	margin-top: 00px;
+	margin-bottom: 20px;
+	left: 22%;
+    }
+    
+    #section8 .col-tech{
+	    width: 90%;
+    }
+    
+    #section8 .firstc {
+    margin-left: 200px;
+    width: 45%;
+	}
+    
+    #section8 .secondc {
+    padding: 0px;
+	width: 31%;
+	}
+    
+    .video iframe{
+    width: 310px; 
+    height: 174px;
+    }
+    
+    #section9 .save {
+    width: 30%;
+    }
+    
+    #section10 .black {
+    height: auto;
+    }
+
+}
+
+@media screen and (max-width: 1440px) {
+    
+    #menu li a{
+    font-size: 14px;
+    }
+    
+    #section1 h1{
+    font-size: 50px;
+    margin: 13% auto 0;
+    }
+    
+    #section3 h1{
+    font-size: 52px;
+    line-height: 60px;
+    }
+ 
+    #section3 p{
+    font-size: 14px;
+    line-height: 20px;
+    }
+    
+    .view{
+    margin-left: 50px;
+    }
+    
+    #section4 img{
+    width: 85%;
+    }
+    
+    #section3 img {
+    width: 60%;
+    margin-left: 15%;
+    }
+    
+     .vision {
+    margin-top: 12%;
+    }
+    
+    #section4 h2 {
+    font-size: 42px;
+    line-height: 50px;
+    }
+    
+    #section4 p{
+    font-size: 16px;
+    }
+    
+    #section5 .container {
+    width: 90%;
+    }
+    
+    #section5 .row{
+    margin-top: 10%;
+    }
+    
+    #section5 .derc{
+    font-size: 18px;
+    padding: 30px 0 30px;
+    }
+    
+    #section5 .team{
+	/*padding: 0 0 0 100px;*/
+	min-height: 120px;
+    }
+    
+    #section5 .people{
+    width: 110px;
+    }
+    
+    .people h2{
+    font-size: 16px;
+    }
+    
+    .people span{
+    font-size: 14px;
+    }
+    
+    #section5 .paraph img{
+    width: 22%;
+    }
+    
+    #section5 .paraph p{
+    font-size: 12px;
+    padding: 0 0 0 31%;
+    }
+    
+    #section5 .worker {
+    width: 38%;
+    }
+    
+    #section6 .row {
+    margin-top: -10%;
+    }
+    
+    #section6 h1{
+    margin-left: 30px;
+    }
+    
+    #section7 h1{
+    font-size: 66px;
+    }
+    
+    p.technical{
+    margin-top: 15%;
+    }
+    
+    #section8 .ourpr {
+	    text-align: center;
+	    font-size: 13px;
+	    width: 80%;
+	    margin-left: 8%;
+	}
+	
+	#section8 .eco{
+		width: 25%;
+		position: absolute;
+	}
+	
+	#section8 p{
+		font-size: 13px;
+	}
+	
+	#section8 h2 {
+	    font-size: 56px;
+	    line-height: 48px;
+	    margin-bottom: 15px;
+	    text-align: center;
+	}
+	#section8 .intro-tech {
+		width: 80%;
+	    position: relative;
+	    margin-top: 100px;
+		margin-bottom: 20px;
+		left: 8%;
+	}
+	
+	#section8 .firstc{
+		padding-left: 63px;
+		margin-left: 10px;
+		width: 52%;
+	}
+
+	#section8 .secondc{
+		padding: 0px;
+		width: 45%;
+	}
+
+	#section8 .collage{
+	    width: 45%;
+		top: 130px;
+		position: absolute;
+		left: 0;
+	}
+	    
+    #section9 h1{
+    font-size: 48px;
+    line-height: 56px;
+    margin-top: 15%;
+    }
+    
+    #section9 p{
+    font-size: 16px;
+    line-height: 30px;
+    padding: 0 10% 0 0;
+    margin-top: 10%;
+    }
+    
+    span.formtop {
+    font-size: 10px;
+    font-weight: bold;
+    }
+       
+}
+
+
+@media screen and (min-width: 1200px) and (max-width: 1280px){
+    
+    .vision {
+    margin-top: 10%;
+    }
+    
+    #section4 h2 {
+    font-size: 42px;
+    line-height: 50px;
+    }
+    
+    #section4 p, #section4 ul li {
+    font-size: 16px;
+    font-weight: 100;
+    }
+    
+    #section5 .derc {
+    font-size: 16px;
+    padding: 30px 0px 20px 95px;
+	}
+    
+    #section5 .container {
+    width: 90%;
+    }
+    
+    #section5 .worker {
+    width: 57%;
+    left: -15%;
+	}
+    
+    #section5 .paraph{
+	    width: 110%;
+    }
+    
+    #section5 .team{
+	    margin-bottom: 10px;
+    }
+    
+    #section5 .paraph p {
+    padding: 0px 0px 0px 34%;
+	}
+        
+    .view {
+    margin-left: 5%;
+    float: left;
+    }
+    
+    #section3 img {
+    width: 60%;
+    margin-left: 15%;
+    }
+    
+    #section6 .row {
+    margin-top: -15%;
+    }
+    
+    #section8 .collage{
+	    width: 54%;
+	    left: -14%;
+    }
+    
+    #section8 .intro-tech {
+    width: 80%;
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    left: 7%;
+	}
+
+	#section8 h2 {
+    font-size: 46px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+	}
+
+	#section8 .ourpr {
+    font-size: 12px;
+    }
+
+	#section8 .firstc {
+    padding-left: 0px;
+    width: 49%;
+    }
+
+	#section10 .greenone{
+		margin-left: -30px;
+	}
+
+	#section10 .greentwo{
+		margin-left: 20%;
+	}
+	
+	#section10 .columna {
+    width: 52%;
+	}
+
+}
+
+@media screen and (max-width: 1199px) {
+    
+    img#home-seal {
+    position: absolute;
+    top: 160px;
+    right: 0px;
+    z-index: 9999;
+    width: 15%;
+    }
+    
+    #section1 h1{
+    font-size: 38px;
+    }
+    
+    #menu li a{
+    font-size: 12px;
+    padding: 0px;
+    }
+    
+    #menu li.active a{
+    font-size: 12px;
+    padding: 0px;
+    }
+    
+    #section2 h1{
+    line-height: 62px;
+    font-size: 58px;
+    }
+    
+    #section2 p{
+    line-height: 20px;
+    font-size: 14px;
+    }
+    
+    #section2 .row{
+    margin-top: -60px;
+    }
+    
+    #section3 h1{
+    font-size: 42px !important;
+    line-height: 44px;
+    }
+
+    #section3 p{
+    font-size: 12px;
+    line-height: 16px;
+    }
+    
+    #section3 a {
+    padding: 15px;
+    }
+    
+    .view{
+    margin-left: 20px;
+    width: 190px;
+    }
+    
+    #section4 img{
+    width: 100%;
+    }
+    
+    #section4 h2{
+    font-size: 36px;
+    line-height: 40px;
+    }
+    
+    .vision{
+    margin-top: 15%;
+    }
+
+    #section4 h3{
+    font-size: 16px;
+    }
+    
+    #section4 p{
+    font-size: 14px;
+    }
+    
+    #section5 .worker {
+    width: 49%;
+    left: -8%;
+}
+    #section5 .derc{
+    font-size: 18px;
+    padding: 46px 0px 30px 74px;
+    }
+    
+    #section5 .paraph p{
+    font-size: 11px;
+    padding: 0 0 0 36%;
+    }
+    
+    #section5 .derc{
+	    font-size: 16px;
+    }
+    
+    #section5 .team {
+    padding: 0px 0px 0px 60px;
+}
+    
+    #section6 h1{
+    font-size: 38px;
+    margin-left: 25px;
+    margin-top: 10%;
+    }
+    
+    #section6 h1{
+    width: 40%;
+    margin-top: 10%;
+    }
+    
+    #section9 .row{
+    margin-top: 15%;
+    }
+    
+    #section9 h1{
+    font-size: 38px;
+    line-height: 46px;
+    margin-top: 15%;
+    }
+    
+    #section9 p{
+    font-size: 14px;
+    line-height: 26px;
+    }
+    
+    #section8 .intro-tech{
+	    left: 5%;
+	    margin-top: 30px;
+    }
+        
+    .video iframe{
+    width: 300px;
+    height: 169px;
+    }
+    
+    #section8 .firstc {
+    margin-left: -60px;
+    width: 55%;
+	}
+    
+    #section8 .secondc {
+    width: 48%;
+	}
+    
+    #section8 p {
+    font-size: 12px;
+	}
+    
+    #section8 .collage{
+	    width: 54%;
+	    left: -14%;
+    }
+    
+    #section10 .greenone{
+		margin-left: -30px;
+	}
+
+	#section10 .greentwo{
+		margin-left: 20%;
+	}
+	
+	#section10 .columna {
+    width: 52%;
+	}
+	
+}
+
+
+@media screen and (max-width: 992px) {
+
+    #section1 h1{
+    line-height: 38px;
+    margin-top: 20%;
+    }
+    
+    img#header-logo{
+    width: 15%;
+    height: auto !important;
+    }
+    
+    #menuwrapper{
+    width: auto;
+    margin-bottom: 10px !important;
+    margin-top: 3% !important;
+    }
+    
+    #menu{
+    height: auto !important;
+    }
+    
+    #menu li a {
+    font-size: 10px;
+    }
+    
+    #section2 h1{
+    line-height: 50px;
+    font-size: 46px;
+    }
+    
+    #section2 p{
+    line-height: 16px;
+    font-size: 12px;
+    }
+    
+    #section3 img{
+    width: 42%;
+    margin-left: 20%;
+    display: block;
+    }
+    
+    #section3 a{
+    font-size: 10px;
+    }
+    
+    .view{
+    width: 145px;
+    }
+    
+    #section4 .col-sm-5{
+    width: 50%;
+    }
+    
+    .vision{
+    width: 50%;
+    margin-top: 20%;
+    }
+    
+    #section4 h2{
+    line-height: 28px;
+    font-size: 24px;
+    }
+    
+    #section4 h3{
+    margin-top: 15px;
+    font-size: 14px;
+    }
+    
+    #section4 p, #section4 ul li{
+    font-size: 12px;
+    }
+    
+    #section5 .container{
+    width: 100%;
+    }
+    
+    #section5 .derc{
+    font-size: 14px;
+    margin-top: 2%;
+    padding: 46px 30px 30px 74px;
+    }
+    
+    #section5 .worker {
+    width: 59%;
+    left: -18%;
+	}
+    
+    #section5 .paraph p{
+    padding: 0 0 0 32%;
+    }
+    
+    #section5 .people {
+    width: 88px !important;
+	}
+    
+    #section5 .team {
+    padding: 0px 0px 0px 73px;
+	}
+    
+    .people h2, .people span{
+    font-size: 12px;
+    }
+    
+    #section6 .col-sm-4{
+    width: 50%;
+    }
+    
+    #section7{
+    background-position: top right;
+    }
+    
+    #sectino7 .row{
+    margin-top: 15%;
+    }
+    
+    #section7 p{
+    font-size: 12px;
+    width: 100%;
+    }
+    
+    #section7 p.technical{
+    font-size: 16px !important;
+    }
+    
+    #section7 h1{
+    font-size: 42px;
+    line-height: 40px;
+    }
+    
+    #section8 .collage{
+	    width: 67%;
+	    left: -34%;
+		margin-top: -17px;
+    }
+    
+    #section8 .intro-tech {
+    left: -3%;
+    margin-top: 50px;
+	}
+    
+    #section8 .firstc {
+    margin-left: -130px;
+    width: 62%;
+    padding-right: 0;
+	}
+    
+    #section8 .secondc {
+    width: 59%;
+	}
+    
+    .video iframe{
+    width: 265px;
+    height: 148px;
+    }
+    
+    #section9 h1{
+    font-size: 25px;
+    line-height: 34px;
+    }
+    
+    #section9 p{
+    font-size: 12px;
+    line-height: 20px;
+    }
+    
+    #section10 .greenone {
+    margin-left: -50px;
+    width: 370px;
+	}
+	
+	#section10 .greenone h3 {
+    font-size: 20px;
+	}
+
+	#section10 .greenone p {
+    font-size: 13px;
+	}
+	
+	#section10 .greentwo h4{
+		font-size: 17px;
+		width: 80%;
+	}
+	
+	#section10 .columna {
+    width: 49%;
+	}
+
+}
+
+@media screen and (max-width: 767px) {
+    
+    body, h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    font-weight: 100;
+    text-align: center !important;
+    }
+    
+    .section .col-xs-12 {
+    width: 100% !important;
+    }
+    
+    img#header-logo {
+    width: 60%;
+    }
+    
+    img#home-seal {
+    z-index: 999;
+    width: 25% !important;
+    } 
+    
+    a.logo-mobile {
+    width: 80%;
+    float: left;
+    }
+    
+    .navbar-fixed-top{
+    background: rgba(193,233,127,0.8);
+    }
+    
+    .navbar-default .navbar-toggle{
+    border-color: transparent;
+    background: #003d22;
+    }
+    
+    .navbar-default .navbar-toggle:hover{
+    border-color: rgba(193,233,127,1);
+    background: inherit;
+    }
+    
+    .navbar-default .navbar-toggle .icon-bar{
+    background: rgba(193,233,127,1);
+    }
+    
+    .navbar-default .navbar-collapse{
+    border-color: transparent;
+    }
+    
+    #menu li{
+    display: table;
+    }
+    
+    #menu li a{
+    font-size: 12px;
+    padding: 5px 0;
+    }
+    
+    #section1 h1 {
+    line-height: 38px;
+    margin-top: 30%;
+    padding: 0;
+    }
+    
+    #section2 h1 {
+    line-height: 50px;
+    font-size: 46px;
+    margin-top: 30%;
+    }
+    
+    #section2 p {
+    line-height: 20px;
+    font-size: 16px;
+    }
+    
+    #section3 h1 {
+    margin: 0 auto !important;
+    float: none;
+    }
+    
+    #section3 p {
+    font-size: 14px;
+    line-height: 16px;
+    padding: 15px 30px;
+    }
+    
+    #section3 img {
+    width: 40%;
+    margin: 0 auto;
+    }
+    
+    .view {
+    width: auto;
+    }
+    
+    #section3 a {
+    font-size: 14px;
+    }
+    
+    #section5 .team {
+    margin: 20px auto;
+    }
+    
+    #section5 .people {
+    width: 110px !important;
+    float: none;
+    margin: 0 auto;
+    }
+    
+    .people h2 {
+    font-size: 18px;
+    }
+    
+    .people span{
+    font-size: 14px;
+    }
+    
+    #section5 .worker {
+	    opacity: 0;
+    }
+    
+    #section5 .derc {
+    font-size: 14px;
+    margin-top: 32%;
+    text-align: center;
+    }
+    
+    #section5 .paraph {
+    width: 100%;
+    }
+    
+    #section5 .paraph img {
+    width: 50%;
+    float: none;
+    padding: 10px 0;
+    }
+    
+    #section5 .paraph p {
+    padding: 0 20px;
+    font-size: 14px;
+    }
+    
+    #section6 h1 {
+    width: 50%;
+    float: none;
+    margin: 10% auto 5%;
+    }
+    
+    #section6 p {
+    font-size: 18px;
+    color: #000;
+    width: 65%;
+    float: none;
+    margin: 0 auto;
+    }
+    
+    #section7 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom left;
+    }
+    
+    #section7 h2 {
+    width: auto;
+    padding-left: 0;
+    float: none;
+    color: #A2D862;
+    margin-top: 25%;
+    font-size: 20px;
+    text-align: center !important;
+    }
+    
+    #section7 h1 {
+    margin: 0 auto;
+    }
+    
+    #section7 p {
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    }
+    
+    #section7 p.technical {
+    font-size: 16px !important;
+    margin: 0 auto;
+    width: 100%;
+    }
+    
+    #section8 {
+    background: rgba(193,233,127,1);
+    }
+    
+    #section8 .first {
+    margin-top: 0;
+    margin-left: 0;
+    }
+    
+    #section8 .intro-tech {
+    margin: 5% auto;
+    float: none;
+    }
+    
+    #section8 h2 {
+    font-size: 38px;
+    float: none;
+    }
+    
+    #section8 .ourpr {
+    width: auto;
+    font-size: 14px;
+    text-align: center;
+    }
+    
+    #section8 .video {
+    float: none;
+    width: 70%;
+    margin: 0 auto;
+    }
+    
+    .col-tech {
+    padding: 5px 35px;
+    margin-top: 10px;
+    float: none;
+    width: 100%;
+    }
+    
+    .col-tech p {
+    font-size: 14px;
+    text-align: left;
+    }
+    
+    #section10 .greenone {
+    margin-left: 200px;
+	}
+	
+	#section10 .greentwo {
+    margin-left: 4%;
+	}
+
+}

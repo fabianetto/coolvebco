@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width" />
+	<title>Coolbevco</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:100,300,400,700" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./css/media.css" />
+	<link rel="stylesheet" type="text/css" href="./css/jquery.pagepiling.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript" src="./js/jquery.pagepiling.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+	<script type="text/javascript" src="./js/collapse.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+
+        /*
+        * Plugin intialization
+        */
+	    	$('#pagepiling').pagepiling({
+	    		menu: '#menu',
+	    		anchors: ['home', 'best', 'products', 'vision', 'people', 'fruits', 'services', 'tech', 'social', 'contact'],
+			    navigation: false,
+			    afterRender: function(){
+			    	$('#pp-nav').addClass('custom');
+			    },
+			    afterLoad: function(anchorLink, index){
+                    var urlpage = window.location.hash;
+			    	if(index>1){
+			    		$('#pp-nav').removeClass('custom');
+                        $('#header-logo').css('float','left');
+                        $('#header-logo').css('height','56');
+                        $('#menu').css('height','90');
+                        $('#menu').css('background','rgba(193,233,127,1)');
+                        $('header').css('height','132');
+                        //$('#home-seal').css('display','none');
+                        $('#home-seal').css('top','90px');
+                        $('#home-seal').css('right','10px');
+                        $('#home-seal').css('width','110px');
+                        $('#menuwrapper').css('float','right');
+                        $('#menuwrapper').css('margin','55px 112px 15px 0px');
+                        $('#menuwrapper').css('margin-right','112px');
+                        $('.espanol').css('float','right');
+                        $('.english').css('float','right');
+                        
+			    	}else{
+			    		$('#pp-nav').addClass('custom');
+                        $('#header-logo').css('float','none');
+                        $('#header-logo').css('height','100');
+                        $('#menu').css('height','185');
+                        $('#menu').css('background','rgba(193,233,127,0.8)');
+                        $('header').css('height','227');
+                        //$('#home-seal').toggle( "slide" );
+                        $('#home-seal').css('top','134px');
+                        $('#home-seal').css('right','0px');
+                        $('#home-seal').css('width','250px');
+                        $('#menuwrapper').css('float','none');
+                        $('#menuwrapper').css('margin','0');
+                        $('#menuwrapper').css('margin-right','0');
+                        $('.espanol').css('float','none');
+                        $('.english').css('float','none');
+			    	}
+			    },
+                        onLeave: function(index, nextIndex, direction){
+                            if((index==1)&&(nextIndex==2)){
+                                //$('#home-seal').toggle( "slide" );
+                            }
+                        }
+			});
+	    });       
+    </script>
+	<!--  Wait for window load -->
+	<script>
+	$(window).load(function() {
+		// Animate loader off screen
+		$(".se-pre-con").fadeOut("slow");;
+	});
+    </script>
+</head>
+<body>
+    <header>
+      <div class="header-content hidden-xs">
+            <strong><a href="#home">COOLBEVCO</a></strong> | <span>San Pedro de Macoris <img src="./img/DRflag.jpg" alt="Dominican Repulic Flag"> República Dominicana</span>
+            
+            <div class="header-social">
+                <a href=""><i class="fa fa-facebook-square"></i></a>
+                <a href=""><i class="fa fa-twitter"></i></a>
+                <a href=""><i class="fa fa-pinterest"></i></a>
+                <a href=""><i class="fa fa-instagram"></i></a>
+            </div>    
+    </div>
+    <div class="header-content visible-xs">
+        <img src="./img/DRflag.jpg" alt="Dominican Repulic Flag">República Dominicana</span>
+    </div>
+       <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+         <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-6">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-6">
+            <ul id="menu" class="nav navbar-nav">
+            <a href="#home" class="hidden-xs">
+            <img id="header-logo" src="./img/coolbevco_logo.png" alt="coolbevco">
+            </a>
+            <div id="menuwrapper" class="hidden-xs">
+            <li data-menuanchor="home"><a id="menulink" href="#home">Home</a></li>|
+            <li data-menuanchor="products"><a id="menulink" href="#products">Products</a></li>|
+            <li data-menuanchor="vision"><a id="menulink" href="#vision">Vision</a></li>|
+            <li data-menuanchor="people"><a href="#people">People</a></li>|
+            <li data-menuanchor="fruits"><a id="menulink" href="#fruits">Fruits</a></li>|
+            <li data-menuanchor="services"><a id="menulink" href="#services">Services</a></li>|
+            <li data-menuanchor="tech"><a id="menulink" href="#tech">Technology</a></li>|
+    <li data-menuanchor="social"><a id="menulink" href="#social">Social Responsibility</a></li>|
+            <li data-menuanchor="contact"><a id="menulink" href="#contact">Contact</a></li>
+            </div>
+            <div id="menuwrapper" class="visible-xs">
+            <li data-menuanchor="home"><a id="menulink" href="#home">Home</a></li>
+            <li data-menuanchor="products"><a id="menulink" href="#products">Products</a></li>
+            <li data-menuanchor="vision"><a id="menulink" href="#vision">Vision</a></li>
+            <li data-menuanchor="people"><a href="#people">People</a></li>
+            <li data-menuanchor="fruits"><a id="menulink" href="#fruits">Fruits</a></li>
+            <li data-menuanchor="services"><a id="menulink" href="#services">Services</a></li>
+            <li data-menuanchor="tech"><a id="menulink" href="#tech">Technology</a></li>
+    <li data-menuanchor="social"><a id="menulink" href="#social">Social Responsibility</a></li>
+            <li data-menuanchor="contact"><a id="menulink" href="#contact">Contact</a></li>
+            </div>
+            </ul>
+        </div>
+        </nav>
+        <!-- SEAL -->
+        <a href="#best"><img src="./img/seal.png" id="home-seal"></a>
+    </header>
+    <!-- INICIO DE LA PÁGINA -->
+	<div id="pagepiling">    
+    <!-- SECTION 1 PALMERAS-->
+	<div class="section" id="section1">
+		<div class="row">
+			<div class="col-xs-12">
+				<h1>We are a craft juice manufacturer that specializes in the sourcing,processing and packaging of the very finest organic coconut water and specialty fruit juices in the Dominican Republic.</h1>
+			</div>
+		</div>
+	</div>   
+    <!-- SECTION 2 OCASO-->
+	<div class="section" id="section2">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-4">
+				<h1>The Dominican Republic at its best.</h1>
+			</div>
+			<div class="col-xs-12 col-sm-4">
+				<p>Coolbevco is a craft juice maker that has been established in the Dominican Republic to produce the finest Organic Coconut Water, Oil & Milk on Earth. The island’s ecosystem is ideal for growing a diverse range of outstanding and unique fruits and coconuts that are packed with natural goodness and amazing taste.</p>
+			</div>
+			<div class="col-xs-12 col-sm-4">
+				<p>Our purpose is to provide authentic, awesome tasting, and naturally enhanced functional beverages that help people live a healthier and happier life. From plantation to bottle, our craft coconut water and craft juices are always made with your enjoyment, health and safety in mind.</p>
+			</div>
+		</div>
+		</div>
+	</div>   
+  <!-- SECTION 3 PRODUCTS-->
+	<div class="section" id="section3">
+		<div class="row">
+			<div class="col-xs-12 col-sm-6">
+				<h1>We’re coconut experts.</h1>
+			</div>
+			<div class="col-xs-12 col-sm-6">
+				<p>We love to make high quality good for you products, such as premium organic 100% natural coconut water, milk and oil. We are reliable and fun to work with. We are passionate about delivering great service and care for our customers, our people and our surroundings.</p>
+				<img src="./img/certificates.jpg" />
+        <div class="view">
+				<a href="./img/organic-coconut-water.pdf">Coconut water | <span style="color: #006336;">VIEW</span></a><a href="./img/organic-coconut-oil.pdf">Coconut Oil | <span style="color: #006336;">VIEW</span></a>
+        </div>
+            </div>
+		</div>
+		
+	</div> 
+    <!-- SECTION 4 VISION-->
+	<div class="section" id="section4">
+		<div class="row">
+			<div class="col-xs-12 col-sm-5">
+				<img src="./img/img-3-1.jpg"/>
+			</div>
+			<div class="col-xs-12 col-sm-7 vision">
+				<h2>We are a team of professionals with the experience and the desire to innovate. Our great attitude, creativity, and integrity is what makes us different.</h2>
+				<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					<div class="half-div">
+						<h3>Vision</h3>
+						<p>"If you build it, they will come"... Coolbevco is the place people come to when they want the very finest coconut water on Earth!</p>
+                    <h3>Mision</h3>
+                    <p>To make Uniquely Cool & Authentic healthy beverages in our innovative Craft Micro-Juicery… made by a KICK ASS team of happy people that are insanely passionate and proud of the products we make.</p>
+                    </div>
+				</div>
+				<div class="col-xs-12 col-sm-6">
+					<div class="">
+						<h3>Core Values</h3>
+                        <h3>We live to:</h3>
+                        <ul>
+                            <li>Deliver WOW through QSS (Quality, Safety & Service)</li>
+                            <li>Get It Done!</li>
+                            <li>Keep Our Promises</li>
+                            <li>Do More with Less</li>
+                            <li>Embrace & Drive Change</li>
+                            <li>Be Honest and supportive Teammates</li>
+                            <li>Be Positive and Enjoy Life!</li>
+                        </ul>
+                    </div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+       
+    <!-- SECTION 5 PEOPLE -->
+	<div class="section" id="section5">
+	<div class="container">
+		<div class="row">
+			<img class="worker" src="./img/workers.jpg" />
+			<div class="col-xs-12 col-sm-4">
+			</div>
+			<div class="col-xs-12 col-sm-8">
+				<p class="derc"><strong>COOLBEVCO's management and advisors are industry leaders with established careers in </strong><i>beverage development, manufacturing, bottling, engineering, coconuts, natural beverages, isotonic beverages, sales & distribution, marketing & advertising and entrepreneurship.</i></p>
+				<div class="team">
+					<div class="people">
+			                    <h2>Founder / CEO: </h2>
+			                    <span>Victor Mestre</span>
+		            </div>
+		            <div class="paraph">
+		                    <img src="./img/img-3-2.jpg" />
+		                    <p>Victor has over 20 years of management experience with top multinational consumer product companies such as Colgate Palmolive, Quaker Oats and PepsiCo. At PepsiCo, he was VP for Gatorade in Latin America and earned the highly prestigious Pepsi Chairman’s Award. After PepsiCo, Victor founded Tracker International, which is one of the largest GPS Asset Tracking companies in Latin America today with more than 300 employees and 3,000 customers. He is currently a member of the Young Presidents Organization, (YPO), one of the world’s premier peer network of chief executives and business leaders.</p>
+		            </div>
+				</div>
+	            <div class="team">
+					<div class="people">
+			                    <h2>Manufacturing: </h2>
+			                    <span>Gustavo Figuera</span>
+		            </div>
+		            <div class="paraph">
+		                    <img src="./img/img3-3.jpg" />
+		                    <p>Gustavo is a Mechanical Engineer and Operations Management Specialist with more than 30 years experience. He led the engineering team for Quaker Oats that built the first Gatorade manufacturing facility in Venezuela and later directed all of its Supply Chain operations. He also directed operations for leading companies in Venezuela such as Ron Santa Teresa and Alfonzo Rivas. Gustavo has been responsible for several new product and growth projects related to beverages, breakfast cereals, chocolate paste & powder beverages, ethanol, rums and other alcohol related products.</p>
+		            </div>
+				</div>
+				
+				<div class="team">
+					<div class="people">
+			                    <h2>R&D and Quality<br /> Assurance:</h2>
+			                    <span>Beatriz Fonger</span>
+		            </div>
+		            <div class="paraph">
+		                    <img src="./img/img-4-3.jpg" />
+		                    <p>Beatriz is a graduate from Louisiana State University with a degree in Food Science. She is a specialist in food and beverage new product development and quality assurance. Throughout her brilliant 30+ year career she has held key leadership responsibilities in the areas of both Quality Assurance and R&D for top companies such as Gerber, Heinz, Quaker Oats, PepsiCo and Nestle.</p>
+		            </div>
+				</div>
+	            
+			</div>
+			</div>
+		</div>
+
+	</div>
+       
+  <!-- SECTION 6 FRUIT -->
+	<div class="section" id="section6">
+		
+		<div class="row">
+			
+			<div class="col-xs-12 col-sm-4">
+				<h1>The right ingredients for success.</h1>
+                <p>We can help you fulfill all your R&D and Brand development needs. If you want something special we will work hand in hand to get it done and make it happen!</p>
+			</div>
+			
+		</div>
+		
+	</div>
+
+<!-- SECTION 7 SERVICES -->
+	<div class="section" id="section7">
+		<div class="row">
+			<div class="col-xs-12 col-sm-5">
+            <h2>Private Label Services</h2>
+            <h1>Let’s create a new brand together.</h1>
+            <p>All made with Dominican fruit quality. Whatever your needs are, COOLBEVCO has the expertise to help you reach a larger share of your markets. <br> <br>
+            We can tailor-make your beverages and have a variety of packaging options such as PET, Can, Glass, and Tetra Pack. <br> <br>
+            To know more about COOLBEVCO's manufacturing facility, research & development capabilities, logistics services, or to learn more about our private label and co-packing opportunities, please <a href="mailto:contact@coolbevco.com"><strong>contact</strong></a> us.</p>
+			</div>
+			
+			<div class="col-xs-12 col-sm-7">
+				<p class="technical">Our Technical Services team works closely with you to improve or develop new products and innovative packaging concepts that are both technically and economically feasible for your project.</p>
+			</div>
+		</div>
+		
+	</div>
+
+<!-- SECTION 8 TECHNOLOGY-->
+	<div class="section" id="section8">
+		
+		<div class="row">
+			<img class="collage" src="img/tech.jpg" />
+			<div class="col-xs-12 col-sm-5">
+			
+			</div>
+			<div class="col-xs-12 col-sm-7">
+				<div class="row">
+					
+					<div class="col-xs-12 intro-tech">
+						<h2>Science and technology</h2>
+			            <p class="ourpr">Our Production experience and specialized equipment give us a cost and functional competitive advantage vs. other producers in the marketplace today.</p>
+                    </div>
+                    
+                    
+				</div>
+				
+				<div class="row">
+					<div class="col-xs-12 col-sm-6 firstc">
+						<div class="video"><iframe width="390" height="220" src="https://www.youtube.com/embed/tJYzIiufsI4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
+					
+						<div class="col-tech">
+							<p><strong>Processing:</strong></p>
+		                    <p>Our specialized “from tree to bottle” process has been carefully designed to give you the freshest best tasting organic Coconut Water from the Caribbean!<br>Our proprietary coconut extraction, peeling and cracking equipment are part of our “secret sauce”.</p>
+		                    <p><strong>Industrial Filling Line:</strong> Ensures superior product freshness and innocuousness in a 1000 liter Aseptic Big Bag and 55 Gallon Drum presentations.</p>
+		                    <p><strong>PET Filling Line:</strong> A state of the art Isobaric Kosme 20/20/5 Tribloc Cold Fill line for a variety of PET bottle sizes</p>
+						</div>
+					</div>
+					
+					<div class="col-xs-12 col-sm-6 secondc">
+						<div class="col-tech">
+							<p><strong>Automatic Sleeve Labeler:</strong> 15,000 BPH, servo system and high-sensitivity photoelectric unit imported from Japan, with high cutting precision of label. Roll frame of shrinkage film with adjustable device for different volume/size labels.</p>
+							<p><strong>In house R&D & Laboratory Capabilities: </strong>We have a fully stocked laboratory with top of the line equipment to develop a diverse range of products and implement accelerated shelf life testing when required . We also do microbiological and physical chemical testing to ensure all certified quality controls.</p>
+							<p><strong>Cold Press Micro Expelling VCO process:</strong> cold pressed virgin coconut oil with a proprietary fast extraction process. From coconut to package in under 45 minutes. Micro qualitative testing, chemical and sensorial lab analysis is done on every liter throughout production</p>
+		                    <p><strong>Bio Mass Power Generation:</strong></p>
+		                    <p>Through a system of burning our coconut shells we will create our own steam and electricity for manufacturing. We help take care of our environment while we take care of our products.</p>
+						</div>
+						<img class="eco" src="img/eco.png" />
+					</div>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+	
+	</div>	
+	
+<!-- SECTION 9 SOCIAL RESPONSIBILITY-->
+	<div class="section" id="section9">
+		<div class="row">
+			<div class="col-xs-12 col-sm-4">
+				<img src="img/img-7-1.jpg" />
+			</div>
+			<div class="col-xs-12 col-sm-8">
+				<h1>COOLBEVCO.<br>
+                Proud Sponsor of Save The Children</h1>
+                <img class="save" src="img/img-7-savethechildren.png" />
+                <p>Save the Children has worked to improve the lives of vulnerable Dominican children and their families since 1972. Currently, Save the Children works in 69 communities located along the northern and central border with Haiti, as well as approximately 20 communities in the region called Bateyes. Save the Children has implemented programs in health and nutrition, preventive health care, water and sanitation, education, community development, and children's rights.</p>
+				<p>We at COOLBEVCO strongly believe that a proper education is a way out of poverty. We want to help reduce illiteracy rates in the Dominican Republic. Without sufficient funds being invested in school supplies and infrastructure, extracurricular activities, teacher/parent training and transportation to and from schools, Dominican children lack the resources needed for a proper education. We want to help make a difference and give these children a chance to improve their lives.</p>
+			</div>
+		</div>
+	</div>
+				
+<!-- SECTION 10 CONTACT-->
+	<div class="section" id="section10">
+		
+		<div class="row contac">
+				
+				<div class="col-xs-12 col-sm-1">
+				</div>
+				
+				<div class="col-xs-12 col-sm-3">
+					
+					<div class="greenone">
+						<h3>Contact Us:</h3>
+	                    <p class="mail">
+	                        Please email us with your inquiry at
+	                        <span class="email"><a href="mailto:contact@coolbevco.com">contact@coolbevco.com</a></span>
+	                        Thank you for your interest in COOLBEVCO products and services.
+	                    </p>
+	                    <p class="quality">High quality premium authentic natural foods and beverages.</p>
+	                    
+	                    <center><img src="img/seal.png" width="90" height="66"></center>
+	                    <p>
+	                            COOLBEVCO <br>
+	                            Carretera San Pedro - La Romana,<br>
+	                            Nueva Zona Franca<br>
+	                            San Pedro de Macorís,<br> 
+	                            Codigo Postal 21000, <br> 
+	                            Republica Dominicana
+                        </p>
+					</div>
+
+				</div>
+				
+				<div class="col-xs-12 col-sm-7">
+					
+					<div class="greentwo">	
+						<center>
+						<form action="../../mailer/mailer.php"
+	                          name="contactform"
+	                          method="POST"
+	                          accept-charset="UTF-8"
+	                          enctype="application/x-www-form-urlencoded"
+	                          autocomplete="off">
+	                        <input type="hidden" name="backurl" value="http://dlblabs.com/coolbevco/site/en/index.html#contact">
+	                        <h4>Please fill out the form below and we will get back with you promptly.</h4>
+	                        <div class="row contacto">
+		                        <div class="col-xs-12 col-sm-6 columna">
+			                        <center>
+			                        <ul>
+				                        
+				                        <li>Company: <input required type="text" name="company"></li>
+				                        <li>Name: <input required type="text" name="name"></li>
+				                        <li>Address: <input type="text" name="address"></li>
+				                        <li>City: <input type="text" name="city"></li>
+				                        <li>State: <input type="text" name="state"></li>
+										<li>What type of product are you looking for?:<textarea required name="typeofproduct"></textarea></li>
+
+				                    </ul>
+			                        </center>
+		                        </div>
+		                        <div class="col-xs-12 col-sm-6 columnab">
+				                    <center>
+				                    <ul>    
+				                        <li>Zip: <input type="text" name="zip" id="zip"></li>
+				                        <li>Phone: <input required type="text" name="phone"></li>
+				                        <li>Fax: <input type="text" name="fax"></li>
+				                        <li>Email: <input required type="email" name="email"></li>
+				                        <li>Questions or Comments:<textarea name="comments"></textarea></li>
+				                    </ul>
+				                    </center>
+		                        </div>
+	                        </div>
+	                       
+	                        <input class="summit" type="submit" value="Submit">
+	                    </form>
+						</center>
+					</div>	
+						
+				</div>
+				
+				<div class="col-xs-12 col-sm-1">
+				</div>
+			
+		</div>
+		<footer>
+            <center>
+            <img src="./img/footerlogos.jpg" alt="logos"/>
+            </center>
+        </footer>
+	</div>
+        
+	</div> <!-- END PAGEPILING -->
+    
+    <div class="mail-overlay">
+        <div class="mail-overlay-text">
+            Your email was sent succesfully.<br/>We will contact you soon.
+        </div>
+    </div>
+    
+<!-- JAVASCRIPTS  -->    
+<script type="text/javascript">  
+    function getUrlParameter(sParam)
+    {
+        var sPageURL = window.location.hash;
+        var sURLVariables = sPageURL.split('?');
+        
+            var sParameterName = sURLVariables[1].split('=');
+            if (sParameterName[0] == sParam) 
+            {
+                return sParameterName[1];
+            }else{
+                return 0;
+            }
+        
+    }   
+    var mail = getUrlParameter('mail');
+    if(mail==1){
+        $('.mail-overlay').css('display', 'table');
+    }
+    
+       $('.mail-overlay').click(function () {
+            $('.mail-overlay').css('display', 'none');
+       });
+    
+});
+    
+$(window).load(function() {
+       $('#pagepiling').css('opacity', 1);
+});
+  
+</script>
+</body>
+</html>

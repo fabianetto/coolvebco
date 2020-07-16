@@ -7,7 +7,7 @@ Tools:
 HTML5 + CSS3
 Google fonts
 
-This is the desktop only version of the prototype.
+This is the desktop only version of the prototype. The spanish version was removed for the sample.
 
 Tools used:
 Bootstrap framework v3.3.5
